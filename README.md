@@ -68,3 +68,18 @@ $ ls
 
 ```
 
+## Servidor de desenvolvimento
+
+```bash
+
+# Verificando se o servidor funciona.
+-> Vá ao diretório projeto: exemplo: [mysite]
+$ python manage.py runserver
+
+# Alterando servidor:
+$ python manage.py runserver 8080
+
+# 
+
+```
+
