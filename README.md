@@ -47,7 +47,14 @@ Para criar um app no Django é necessário uma estrutura padrão que pode ser cr
 
 ```bash
 
+# Criando o projeto do App
 $ django-admin startapp [nome-app]
+
+# Entrando na pasta
+$ .\[nome-projeto]\
+
+# Olhando os arquivos
+$ ls
 
 ```
 
