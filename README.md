@@ -79,7 +79,6 @@ $ python manage.py runserver
 # Alterando servidor:
 $ python manage.py runserver 8080
 
-# 
 
 ```
 
