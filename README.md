@@ -1,5 +1,15 @@
 # Django
 Django é um framework web Python de alto nível que encoraja o desenvolvimento rápido e design limpo e pragmático.
+
+## Verificar se o Django está instalado
+```bash
+
+# Verificar se tenho django e qual versão tenho.
+$ python -m django --version
+
+```
+
+
 ## PIP
 * Sistema de gerenciamento de pacotes.
 * Utilizado para instalar e gerenciar pacotes/bibliotecas em Python.
