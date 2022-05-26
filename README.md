@@ -82,3 +82,36 @@ $ python manage.py runserver 8080
 
 ```
 
+## Banco de dados
+
+* ENGINE – ou mesmo 'django.db.backends.sqlite3', 'django.db.backends.postgresql', 'django.db.backends.mysql', ou 'django.db.backends.oracle'. Outros backends estão estão disponíveis.
+* NAME – O nome do seu banco de dados, se você estiver usando SQLite, o banco de dados será uma arquivo no seu computador; neste caso, NAME deve ser o caminho absoluto, incluindo o nome, para este arquivo. O valor padrão BASE_DIR / 'db.sqlite3', ira criar este arquivo no diretório do seu projeto.
+
+#criar as tabelas no banco de dados antes que possamos utilizá-las.
+
+```bash
+
+# Criando tabela.
+$ python manage.py migrate
+
+# Verificando mudanças
+$ python manage.py makemigrations polls
+
+# Verificando o nome do SQL
+$ python manage.py sqlmigrate polls 0001
+
+# Verificando se a algum problema na aplicação
+$  python manage.py check
+```
+## Criando usuário
+
+```bash
+
+# Criando usuário
+$ python manage.py createsuperuser
+
+```
+
+
+
+
