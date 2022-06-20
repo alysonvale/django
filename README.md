@@ -9,6 +9,9 @@ $ python -m django --version
 
 ```
 
+## Projetos
+* djninja - é Django Ninja
+* mysite - é Django
 
 ## PIP
 * Sistema de gerenciamento de pacotes.
